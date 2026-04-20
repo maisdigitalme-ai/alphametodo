@@ -91,7 +91,7 @@
       font-size: clamp(0.7rem, 2vw, 0.85rem);
       letter-spacing: 0.3em;
       text-transform: uppercase;
-      color: var(--red-light);
+      color: rgba(255,255,255,0.75);
       margin-bottom: 1.2rem;
     }
 
@@ -172,7 +172,7 @@
       font-size: 0.72rem;
       letter-spacing: 0.28em;
       text-transform: uppercase;
-      color: var(--red-light);
+      color: rgba(255,255,255,0.6);
       text-align: center;
       margin-bottom: 0.8rem;
     }
@@ -575,33 +575,7 @@
     }
 
     /* ===== STICKY MOBILE ===== */
-    .sticky-bar {
-      display: none;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      z-index: 999;
-      padding: 0.7rem 1rem;
-      background: rgba(8,8,8,0.96);
-      backdrop-filter: blur(12px);
-      border-top: 1px solid rgba(192,57,43,0.25);
-    }
-
-    .sticky-bar a {
-      display: block;
-      background: linear-gradient(135deg, var(--red) 0%, #7a1a1a 100%);
-      color: #fff;
-      text-align: center;
-      padding: 0.85rem;
-      border-radius: 4px;
-      font-weight: 700;
-      font-size: 0.92rem;
-      text-decoration: none;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      box-shadow: 0 0 25px var(--red-glow);
-    }
+    .sticky-bar { display: none !important; }
 
     /* ===== FADE IN ===== */
     .fi {
@@ -673,8 +647,7 @@
     <p class="hero-sub">
       El sistema paso a paso que transforma a cualquier hombre en el amante que toda mujer fantasea — sin experiencia previa, sin técnicas complicadas.
     </p>
-    <a href="https://pay.mycheckoutt.com/019da147-8e90-71f4-bee4-1b9dbb87e6a5?ref=" class="btn-primary">Quiero el Código V ahora</a>
-    <p class="price-hint">Acceso completo por solo <strong>$27 USD</strong></p>
+    <p class="price-hint" style="margin-top:0">Acceso completo por solo <strong>$27 USD</strong></p>
   </div>
 </section>
 
@@ -885,7 +858,8 @@
   </div>
   <p class="footer-legal">
     MAIS DIGITAL CORPORATION LTDA · CNPJ: 30.147.168/0001-95<br>
-    suporte@alphametodo.com · Todos los derechos reservados © 2026
+    suporte@alphametodo.com · Todos los derechos reservados © 2026<br>
+    Contenido educacional. Los resultados varían por persona. Entrega: acceso inmediato al área de miembros.
   </p>
 </footer>
 
